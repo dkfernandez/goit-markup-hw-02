@@ -1,8 +1,27 @@
+.navbar {
+  width: 100%;
+  background-color: white;
+  overflow: auto;
+}
+
+.navbar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:center;
+}
+
+.navbar a:hover{
+  background-color: #444cbc;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    vertical-align: center;
   }
   
   li {
@@ -12,5 +31,7 @@ ul {
   li a {
     display: block;
     padding: 8px;
-    background-color: #dddddd;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 20px;
   }
