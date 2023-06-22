@@ -1,3 +1,28 @@
+.logo{
+  text-decoration: none;
+}
+
+.web-logo, .studio-logo{
+  height: 21px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 21px;
+
+  letter-spacing: 0.03em;
+}
+
+.web-logo{
+  width: 40px;
+  color: #444cbc;
+}
+
+.studio-logo{
+  width: 70px;
+  color: #2E2F42
+}
+
 .navbar {
   width: 100%;
   background-color: white;
