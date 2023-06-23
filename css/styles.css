@@ -1,8 +1,10 @@
-.logo{
-  text-decoration: none;
+body {
+    font-family: ;
+    background-color: white;
+    
 }
-
-.web-logo, .studio-logo{
+.web-logo,
+.studio-logo {
   height: 21px;
   font-family: sans-serif;
   font-style: normal;
@@ -10,53 +12,62 @@
   font-size: 20px;
   line-height: 21px;
 
+  
+
   letter-spacing: 0.03em;
 }
 
-.web-logo{
+.web-logo {
   width: 40px;
   color: #444cbc;
 }
 
-.studio-logo{
+.studio-logo {
   width: 70px;
-  color: #2E2F42
+  color: #2e2f42;
 }
 
 .navbar {
   width: 100%;
-  background-color: white;
-  
 }
 
 .navbar ul {
   padding: 0px;
   margin: 0px;
   text-align: center;
-  display:inline-block;
-  vertical-align:center;
+  display: inline-block;
+  vertical-align: center;
 }
 
-.navbar a:hover{
+.navbar a:hover {
   background-color: #444cbc;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    vertical-align: center;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  vertical-align: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  color: #2e2f42;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+footer{
+  margin: 0;
+  position: bottom;
+  top: 50%;
+  left: 50%;
   
-  li {
-    float: left;
-  }
   
-  li a {
-    display: block;
-    padding: 8px;
-    background-color: white;
-    font-family: sans-serif;
-    font-size: 20px;
-  }
+}
