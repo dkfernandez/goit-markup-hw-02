@@ -81,7 +81,7 @@ font-family: inherit;
 }
 
 .btn.primary{
-background-color: var(--iriscolor);
+background-color: lightblue;
 color: var(--whitecolor);
 font-weight: 800;
 line-height: 1.5;
@@ -91,7 +91,7 @@ text-decoration: none;
 
 .btn.primary:hover,
 .btn.primary:focus{
-  background-color: lightblue;
+  background-color: var(--iriscolor);
 }
 
 .desclist.titlelist{
