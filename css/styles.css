@@ -81,11 +81,12 @@ font-family: inherit;
 }
 
 .btn.primary{
-background-color: var(--oceancolor);
+background-color: var(--iriscolor);
 color: var(--whitecolor);
 font-weight: 800;
 line-height: 1.5;
 letter-spacing: 0.05em;
+text-decoration: none;
 }
 
 .btn.primary:hover,
