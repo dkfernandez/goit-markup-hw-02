@@ -13,7 +13,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
   color: var(--slatecolor);
 }
 
@@ -30,8 +30,8 @@ body {
   letter-spacing: 0.04em;
 }
 
-.button{
-  border-bottom: transparent;
+.button {
+  border-color: transparent;
   font-family: inherit;
   cursor: pointer;
   font-weight: 500;
@@ -39,27 +39,27 @@ body {
   font-size: 16px;
 }
 
-.button.primary{
+.button.primary {
   color: var(--whitecolor);
   background-color: var(--iriscolor);
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
 
-.project .name{
+.project .name {
   font-size: 20px;
   font-weight: 500;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: var(--navyblue)
+  color: var(--navyblue);
 }
 
-.project .type{
+.project .type {
   color: var(--slatecolor);
   font-weight: 400;
   line-height: 1.87;
 }
-.project{
+.project {
   text-decoration: none;
 }
 
@@ -71,7 +71,7 @@ body {
   color: var(--navyblue);
 }
 
-.nav-menu .page{
+.nav-menu .page {
   color: var(--navcolor);
   text-decoration: none;
   font-weight: 500;
@@ -87,8 +87,8 @@ body {
 .nav-menu .page:hover,
 .nav-menu .page:focus,
 .nav-menu .page.current,
-.contacts-menu .info:hover,
-.contacts-menu .info:focus {
+.contacts-menu .contacts-menu:hover,
+.contacts-menu .contacts-menu:focus {
   color: var(--iriscolor);
 }
 
@@ -104,7 +104,7 @@ body {
 .bg-hero {
   background: var(--navyblue);
 }
-.bg-team{
+.bg-team {
   background-color: var(--cloud);
 }
 
@@ -117,16 +117,14 @@ body {
   letter-spacing: 0.05em;
 }
 
-.button-filter{
+.button-filter {
   background-color: var(--cloud);
   color: var(--iriscolor);
   font-weight: 500;
   line-height: 1.62;
 }
 
-.button-filter:hover
-.button-filter:focus
-.button-filter.current{
+.button.filter:hover .button.filter:focus .button.filter.current {
   background-color: var(--oceancolor);
   color: var(--cloud);
 }
@@ -136,10 +134,10 @@ body {
   background-color: var(--oceancolor);
 }
 
-.benefits .title{
+.benefits .title {
   font-size: 20px;
   font-weight: 500;
-  color: var(--navyblue)
+  color: var(--navyblue);
 }
 
 .benefits .description {
@@ -154,9 +152,10 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
+  text-align: center;
 }
 
-.team .name{
+.team .name {
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -164,21 +163,21 @@ body {
   text-align: center;
 }
 
-.team .position{
+.team .position {
   color: var(--slatecolor);
   font-size: 16px;
   font-weight: 400;
-  text-align: center;
+  text-align: center;  
 }
 
 .bg-footer {
   background-color: var(--navyblue);
 }
 
-.studio-footer{
+.studio-footer {
   color: var(--cloud);
 }
 
-.footer-description{
+.footer-description {
   color: var(--cloud);
 }
