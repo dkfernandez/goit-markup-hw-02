@@ -87,8 +87,8 @@ body {
 .nav-menu .page:hover,
 .nav-menu .page:focus,
 .nav-menu .page.current,
-.contacts-menu .contacts-menu:hover,
-.contacts-menu .contacts-menu:focus {
+.contacts-menu .info:hover,
+.contacts-menu .info:focus {
   color: var(--iriscolor);
 }
 
