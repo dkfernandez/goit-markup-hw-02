@@ -87,8 +87,8 @@ body {
 .nav-menu .page:hover,
 .nav-menu .page:focus,
 .nav-menu .page.current,
-.contacts-menu .info:hover,
-.contacts-menu .info:focus {
+.contacts-menu .item:hover,
+.contacts-menu .item:focus {
   color: var(--iriscolor);
 }
 
@@ -117,14 +117,14 @@ body {
   letter-spacing: 0.05em;
 }
 
-.button-filter {
+.button.filter {
   background-color: var(--cloud);
   color: var(--iriscolor);
   font-weight: 500;
   line-height: 1.62;
 }
 
-.button.filter:hover .button.filter:focus .button.filter.current {
+.button.filter:hover, .button.filter:focus, .button.filter.current {
   background-color: var(--oceancolor);
   color: var(--cloud);
 }
